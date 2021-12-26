@@ -1,0 +1,11 @@
+regex:
+  - ^PasswordAuthentication
+  - ^PermitRootLogin
+  - ^Port
+  - ^UseDNS
+  - ^PermitEmptyPasswords
+  - ^ChallengeResponseAuthentication
+  - ^GSSAPIAuthentication
+  - ^X11Forwarding
+line:
+  - PasswordAuthentication no

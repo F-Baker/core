@@ -1,0 +1,5 @@
+- hosts: ALL
+  become: yes
+  gather_facts: True
+  roles:
+    - echo_base
