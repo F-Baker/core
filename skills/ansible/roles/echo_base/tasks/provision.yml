@@ -1,0 +1,14 @@
+---
+
+# - name: run dkpg
+#   become: true
+#   become_user: root
+#   shell: "dpkg --configure -a"
+
+- name: update target os
+  become: true
+  become_user: root
+  apt:
+    # update_cache: true
+    name: "*"
+    state: latest
